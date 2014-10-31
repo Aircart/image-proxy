@@ -5,7 +5,7 @@ This container is nginx configured to as a caching and resize/crop image proxy.
 ## How to run
 
 ```
-docker run -p 80:80 --name images image-proxy
+docker run -p 80:80 --name images aircart/image-proxy
 ```
 
 ## Image Processing

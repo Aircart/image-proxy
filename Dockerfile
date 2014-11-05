@@ -12,7 +12,6 @@ RUN \
 ADD nginx.conf /etc/nginx/
 
 # copy ssl proxy configuration
-# TODO: check if this overrides default.conf
 ADD sites-enabled /etc/nginx/sites-enabled
 
 # Define default command.
